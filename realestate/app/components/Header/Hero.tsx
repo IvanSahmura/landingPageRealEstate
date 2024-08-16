@@ -1,14 +1,17 @@
 
+
 function Hero() {
   return (
     <div className="relative bg-gradient-to-t from-gray-400 to-blue-300 mb-8 pt-28 md:pt-0">
-        <div className="mx-auto px-8 py-12 flex flex-col gap-2 md:flex-row items-center justify-evenly">
-            <div className="mb-8 md:mb-0  items-center">
-                <h1 className="text-4xl md:text-4xl font-bold mb-8">FIND YOUR <br /> 
-                    DREAM HOME</h1>
-                <p></p>
+        <div className="mx-auto px-8 py-12 flex flex-col gap
+        
+        -2 md:flex-row items-center justify-evenly">
+            <div className="mt-8 mb-8 md:mb-0  items-center ">
+                <h1 className="text-4xl md:text-4xl font-bold mb-5">FIND YOUR <br /> <span className="typewriter">DREAM HOME</span></h1>
+                 
+                <p className="text-lg md:text-sm mb-8">The most complete source of homes sales & real estates you will ever seen</p>
 
-                <form className="max-w-md mx-auto">   
+                <form className="max-w-md mx-auto mb-6">   
                     <label htmlFor="default-search" className="mb-2 text-sm font-medium text-gray-900 sr-only dark:text-white">Search</label>
                     <div className="relative">
                         <div className="absolute inset-y-0 start-0 flex items-center ps-3 pointer-events-none">
