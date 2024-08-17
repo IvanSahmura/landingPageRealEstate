@@ -2,12 +2,10 @@
 import { useState, useEffect } from "react"
 
 function Nav() {
-    
-
 
   return (
-    <div className="w-full h-20 ">
-        <div className="max-w-screen-xl h-full mx-auto px-4 flex items-center justify-between">
+    <div className="bg-white w-full h-20 fixed top-0 left-0 z-50  ">
+        <div className="max-w-screen-xl h-full mx-auto px-4 flex items-center justify-between ">
             <h1 className="text-2xl font-bold ">ESTATE ASELI</h1>
                 <ul className="flex gap-8 uppercase">
                     <li className="NavBarLi"><a href="#">BUY</a></li>
