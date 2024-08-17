@@ -10,7 +10,7 @@ function Footer() {
                 <h3 className="font-bold">ESTATE ASELI</h3>
                 <p>55676 Loraine Fields <br /> Port Lorenzaland</p>
                 <p>+1 (910) 397-3832</p>
-                <p>Email <Us></Us></p>
+                <p>Email </p>
             </FooterList>
             
             {/* Company */}
