@@ -6,6 +6,10 @@
     .NavBarLi{
         @apply hover:underline hover:text-blue-600 duration-200
     }
+
+    .Flist{
+      @apply hover:text-blue-600 duration-200
+    }
     .typewriter {
         overflow: hidden; 
         border-right: 0.15em solid; 
