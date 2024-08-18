@@ -14,7 +14,7 @@ const Cards: React.FC<CardsProps> = ({ imageUrl, title, price, bedrooms, bathroo
   return (
     <div className="border rounded-lg shadow-lg p-4 max-w-xs bg-white hover:shadow-xl transition-shadow duration-300 ease-in-out">
       <div className="relative overflow-hidden rounded-t-lg">
-        <img src={imageUrl} alt={title} width={400} height={300} className="rounded-t-lg object-cover" />
+        <img src={imageUrl} alt={title} width={300} height={200} className="rounded-t-lg object-cover" />
       </div>
       <div className="pt-4">
         <h2 className="text-2xl font-bold text-gray-800 mb-2">{title}</h2>
