@@ -7,13 +7,13 @@ function Hero() {
             backgroundImage: "url('/background/bg.jpg')",
           }}
         ></div>
-        <div className="relative mx-auto px-8 py-12 flex flex-col gap-2 md:flex-row items-center justify-evenly">
+        <div className="relative mx-auto px-8 py-28 flex flex-col gap-2 md:flex-row items-center justify-evenly">
           <div className="mt-8 mb-8 md:mb-0 items-center">
             <h1 className="text-4xl md:text-4xl font-bold mb-5 drop-shadow-[0_5px_2px_rgba(0,0,0,0.5)]">
               FIND YOUR <br /> <span className="typewriter">DREAM HOME</span>
             </h1>
             <p className="text-lg md:text-sm mb-8">
-              The most complete source of homes sales & real estates you will ever see
+              The most complete source of homes sales & real estates you will ever seen
             </p>
   
             <form className="max-w-md mx-auto mb-6">
