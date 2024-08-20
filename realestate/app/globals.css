@@ -28,5 +28,37 @@
         from, to { border-color: transparent; }
         50% { border-color: black; }
       }
+
+      @keyframes slide-in {
+        from {
+          transform: translateY(10px);
+          opacity: 0;
+        }
+        to {
+          transform: translateY(0);
+          opacity: 1;
+        }
+      }
       
+      @keyframes slide-out {
+        from {
+          transform: translateY(0);
+          opacity: 1;
+        }
+        to {
+          transform: translateY(-10px);
+          opacity: 0;
+        }
+      }
+      
+      .slide-enter {
+        animation: slide-in 300ms ease-in;
+      }
+      
+      .slide-exit {
+        animation: slide-out 300ms ease-in;
+      }
+      
+     
 }
+

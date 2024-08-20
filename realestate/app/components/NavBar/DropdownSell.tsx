@@ -3,13 +3,13 @@
 import { CSSTransition } from "react-transition-group"
 
 interface DropDownProps{
-    isOpen:boolean
+    isOpenSell:boolean
 }
 
-const Dropdown: React.FC<DropDownProps> = ({isOpen}) => {
+const DropdownSell: React.FC<DropDownProps> = ({isOpenSell}) => {
 
   return (
-      <CSSTransition in={isOpen} timeout={200} classNames="slide" unmountOnExit>        
+      <CSSTransition in={isOpenSell} timeout={200} classNames="slide" unmountOnExit>        
         <ul className="absolute flex flex-row items-start mt-2 bg-white shadow-lg p-10 space-x-5">
             <li><a href="http://">OPTION 1</a></li>
             <li><a href="http://">OPTION 2</a></li>
@@ -20,4 +20,4 @@ const Dropdown: React.FC<DropDownProps> = ({isOpen}) => {
   )
 }
 
-export default Dropdown
+export default DropdownSell
