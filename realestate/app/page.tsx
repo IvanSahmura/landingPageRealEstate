@@ -1,8 +1,8 @@
 import Image from "next/image";
-import Nav from "./components/NavBar/Nav";
-import Hero from "./components/Header/Hero";
-import Footer from "./components/footer/Footer";
-import Cards from "./components/cards/Cards";
+import Nav from "@/components/NavBar/Nav";
+import Hero from "@/components/Header/Hero";
+import Footer from "@/components/footer/Footer";
+import Cards from "@/components/cards/Cards";
 
 export default function Home() {
   return (
@@ -101,6 +101,7 @@ export default function Home() {
             sqft={1200} 
             address={"JLN KETINTANG"} 
             />
+
         </div>
           <div className="max-w-screen-xl mx-auto px-4 pt-8">
           <h1 className="font-bold">LUXURY HOMES</h1>
