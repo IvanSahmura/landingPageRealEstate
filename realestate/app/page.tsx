@@ -3,6 +3,7 @@ import Nav from "@/components/NavBar/Nav";
 import Hero from "@/components/Header/Hero";
 import Footer from "@/components/footer/Footer";
 import Cards from "@/components/cards/Cards";
+import Trends from "@/components/Trends/Trends";
 
 export default function Home() {
   return (
@@ -149,6 +150,7 @@ export default function Home() {
             />
         </div>
       </div>
+      <Trends />
       <Footer />
     </main>
   );

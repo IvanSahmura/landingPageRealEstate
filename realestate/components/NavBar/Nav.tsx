@@ -1,5 +1,5 @@
 "use client"
-import { useState, useRef } from "react"
+import { useState, useRef, useEffect } from "react"
 import Dropdown from "./Dropdown";
 import DropdownSell from "./DropdownSell";
 import DropdownRent from "./DropdownRent";
@@ -22,7 +22,7 @@ function Nav() {
 
   {/** NAV Animation**/}
   const lastScroll = useRef(0)
-  const timeout = useRef<NodeJS.Timeout | null>(null)
+  const timeout = useRef<NodeJS.Timeout | null>(null)       
 
 
   return (
